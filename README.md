@@ -60,8 +60,9 @@ This design draws heavy inspiration from the **Cogni:wave mental health website*
 ### Files for Deployment
 - `.nvmrc` - Specifies Node.js version 18
 - `.node-version` - Alternative Node version specification
-- `wrangler.toml` - Cloudflare Pages configuration
 - `DEPLOYMENT.md` - Detailed deployment guide
+
+**Note**: No `wrangler.toml` file is needed for Cloudflare Pages - configuration is done through the dashboard.
 
 ## Getting Started
 

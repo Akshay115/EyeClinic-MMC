@@ -64,10 +64,15 @@ Cloudflare Pages will automatically redeploy when you push changes to the main b
 ## Build Configuration
 
 The project includes:
-- `wrangler.toml` - Cloudflare Pages configuration
 - Optimized build settings for Vite
 - TailwindCSS purging for minimal bundle size
 - Framer Motion animations (client-side only)
+
+## Files for Deployment
+- `.nvmrc` - Specifies Node.js version 18
+- `.node-version` - Alternative Node version specification
+
+**Note**: No `wrangler.toml` file is needed for Cloudflare Pages - all configuration is done through the dashboard.
 
 ## Performance
 
