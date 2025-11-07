@@ -47,6 +47,22 @@ This design draws heavy inspiration from the **Cogni:wave mental health website*
 - **Framer Motion** - Advanced animation library
 - **Lucide React** - Beautiful icon system
 
+## Deployment
+
+### Cloudflare Pages Configuration
+
+- **Framework Preset**: `None`
+- **Build Command**: `npm run build`
+- **Build Output Directory**: `dist`
+- **Node.js Version**: `18` (or `20`)
+- **Environment Variables**: `NODE_VERSION=18`
+
+### Files for Deployment
+- `.nvmrc` - Specifies Node.js version 18
+- `.node-version` - Alternative Node version specification
+- `wrangler.toml` - Cloudflare Pages configuration
+- `DEPLOYMENT.md` - Detailed deployment guide
+
 ## Getting Started
 
 ### Installation
